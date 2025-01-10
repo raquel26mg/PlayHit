@@ -1,1 +1,3 @@
-.f {display: flex;}
+.f {display: flex; flex-direction: row; flex-wrap: wrap;}
+.items {width: 100%;}
+.items .item {width: 25%;}
