@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
+        <meta charset="utf-8"/>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header></header>
+        <header>
+            <h1>PlayHit</h1>
+        </header>
 
-        <div class="rondas f">
+        <div class="rondas hidden f">
             <div class="ronda">
                 <h3>Ronda 1: Recuerda la letra</h3>
 
@@ -34,104 +37,147 @@
             </div>
         </div>
 
+        <div class="rondas f">
+            <div class="puntuacion">
+                <h2>Puntuación</h2>
+                <p><span>Rondas 1, 2 y 4</span><br>1 punto por carta conseguida</p>
+                <p>-</p>
+                <p><span>Ronda 3</span><br>3 puntos para el equipo ganador</p>
+                <p>-</p>
+                <p class="cartas">Recuerda conservar las cartas acertadas</p>
+            </div>
+            
+            <div class="ronda ronda1 f">
+                <h3>Ronda 1: Recuerda la letra</h3>
+                <p>Cada equipo tiene 45 segundos por turno para responder el mayor número de preguntas que les haga el equipo contrario.</p>
+                <p>Si no sabéis la respuesta, podéis pasar.</p>
+            </div>
+            
+            <div class="ronda ronda2 f">
+                <h3>Ronda 2: Minijuegos musicales</h3>
+                <p>Cada equipo toma 5 cartas del montón de esta ronda.</p>
+                <p>Por turnos, hacedle una pregunta al equipo contrario.</p>
+            </div>
+            
+            <div class="ronda ronda3 f">
+                <h3>Ronda 3: Escucha e identifica</h3>
+                <p>El equipo con menos puntos toma 5 cartas del montón y elige 1 de esas cartas.</p>
+                <p>El equipo contrario selecciona 5 canciones de la lista de reproducción.</p>
+                <p>El equipo que responde tiene 30 segundos para adivinar el título o el artista de cada canción.</p>
+                <p>Luego, se cambian los roles: el otro equipo elige una carta de las 4 restante y se repite la dinámica.</p>
+                <p>El equipo que más canciones acierte gana la carta de la ronda. En caso de empate, se repite la ronda.</p>
+            </div>
+            
+            <div class="ronda ronda4 f">
+                <h3>Ronda 4: Mímica y tarareo</h3>
+                <p>Cada jugador toma una carta del montón de esta ronda, pero no la enseña a su equipo.</p>
+                <p>Por turnos, intentad que vuestros compañeros adivinen un título de vuestra carta haciendo mímica o tarareando durante 30 segundos.</p>
+                <p>Si vuestro equipo falla, el equipo contrario puede intentar adivinar y robar el punto.</p>
+            </div>
+        </div>
+
         <div class="items f">
 
+            <div class="titulo">
+                <h2><span>Ronda 3</span><br>Listas de reproducción</h2>
+            </div>
+            
             <div class="item">
                 <a href="https://atmgaming.eu/pages/playlist/play-hit-es-made-in-espana-cara-a" target="_blank">
-                    <h3>100% MADE EN ESPAÑA - CARA A</h3>
+                    <h3>100% MADE EN ESPAÑA<br>CARA A</h3>
                 </a>
             </div>
             <div class="item">
                 <a href="https://atmgaming.eu/pages/playlist/play-hit-es-made-in-espana-cara-b" target="_blank">
-                    <h3>100% MADE EN ESPAÑA - CARA B</h3>
+                    <h3>100% MADE EN ESPAÑA<br>CARA B</h3>
                 </a>
             </div>
 
             <div class="item">
                 <a href="https://atmgaming.eu/pages/playlist/play-hit-es-electronica-cara-a" target="_blank">
-                    <h3>ELECTRÓNICA - CARA A</h3>
+                    <h3>ELECTRÓNICA<br>CARA A</h3>
                 </a>
             </div>
             <div class="item">
                 <a href="https://atmgaming.eu/pages/playlist/play-hit-es-electronica-cara-b" target="_blank">
-                    <h3>ELECTRÓNICA - CARA B</h3>
+                    <h3>ELECTRÓNICA<br>CARA B</h3>
                 </a>
             </div>
 
             <div class="item">
                 <a href="https://atmgaming.eu/pages/playlist/play-hit-es-hits-del-momento-cara-a" target="_blank">
-                    <h3>HITS DEL MOMENTO - CARA A</h3>
+                    <h3>HITS DEL MOMENTO<br>CARA A</h3>
                 </a>
             </div>
             <div class="item">
                 <a href="https://atmgaming.eu/pages/playlist/play-hit-es-hits-del-momento-cara-b" target="_blank">
-                    <h3>HITS DEL MOMENTO - CARA B</h3>
+                    <h3>HITS DEL MOMENTO<br>CARA B</h3>
                 </a>
             </div>
 
             <div class="item">
                 <a href="https://atmgaming.eu/pages/playlist/play-hit-es-pop-internacional-cara-a" target="_blank">
-                    <h3>POP INTERNACIONAL - CARA A</h3>
+                    <h3>POP INTERNACIONAL<br>CARA A</h3>
                 </a>
             </div>
             <div class="item">
                 <a href="https://atmgaming.eu/pages/playlist/play-hit-es-pop-internacional-cara-b" target="_blank">
-                    <h3>POP INTERNACIONAL - CARA B</h3>
+                    <h3>POP INTERNACIONAL<br>CARA B</h3>
                 </a>
             </div>
 
             <div class="item">
                 <a href="https://atmgaming.eu/pages/playlist/play-hit-es-rap-cara-a" target="_blank">
-                    <h3>RAP - CARA A</h3>
+                    <h3>RAP<br>CARA A</h3>
                 </a>
             </div>
             <div class="item">
                 <a href="https://atmgaming.eu/pages/playlist/play-hit-es-rap-cara-b" target="_blank">
-                    <h3>RAP - CARA B</h3>
+                    <h3>RAP<br>CARA B</h3>
                 </a>
             </div>
 
             <div class="item">
                 <a href="https://atmgaming.eu/pages/playlist/play-hit-es-regueton-cara-a" target="_blank">
-                    <h3>REGUETÓN - CARA A</h3>
+                    <h3>REGUETÓN<br>CARA A</h3>
                 </a>
             </div>
             <div class="item">
                 <a href="https://atmgaming.eu/pages/playlist/play-hit-es-regueton-cara-b" target="_blank">
-                    <h3>REGUETÓN - CARA B</h3>
+                    <h3>REGUETÓN<br>CARA B</h3>
                 </a>
             </div>
 
             <div class="item">
                 <a href="https://atmgaming.eu/pages/playlist/play-hit-es-rock-cara-a" target="_blank">
-                    <h3>ROCK - CARA A</h3>
+                    <h3>ROCK<br>CARA A</h3>
                 </a>
             </div>
             <div class="item">
                 <a href="https://atmgaming.eu/pages/playlist/play-hit-es-rock-cara-b" target="_blank">
-                    <h3>ROCK - CARA B</h3>
+                    <h3>ROCK<br>CARA B</h3>
                 </a>
             </div>
 
             <div class="item">
                 <a href="https://atmgaming.eu/pages/playlist/play-hit-es-temazos-del-2000-cara-a" target="_blank">
-                    <h3>TEMAZOS DEL 2000 - CARA A</h3>
+                    <h3>TEMAZOS DEL 2000<br>CARA A</h3>
                 </a>
             </div>
             <div class="item">
                 <a href="https://atmgaming.eu/pages/playlist/play-hit-es-temazos-del-2000-cara-b" target="_blank">
-                    <h3>TEMAZOS DEL 2000 - CARA B</h3>
+                    <h3>TEMAZOS DEL 2000<br>CARA B</h3>
                 </a>
             </div>
 
             <div class="item">
                 <a href="https://atmgaming.eu/pages/playlist/play-hit-es-vuelta-al-pasado-cara-a" target="_blank">
-                    <h3>VUELTA AL PASADO - CARA A</h3>
+                    <h3>VUELTA AL PASADO<br>CARA A</h3>
                 </a>
             </div>
             <div class="item">
                 <a href="https://atmgaming.eu/pages/playlist/play-hit-es-vuelta-al-pasado-cara-b" target="_blank">
-                    <h3>VUELTA AL PASADO - CARA B</h3>
+                    <h3>VUELTA AL PASADO<br>CARA B</h3>
                 </a>
             </div>
 
